@@ -27,5 +27,5 @@ public class AsistenciaModelo {
 
 	@ManyToOne
 	private ClaseModelo clase;
-
+//cc
 }
