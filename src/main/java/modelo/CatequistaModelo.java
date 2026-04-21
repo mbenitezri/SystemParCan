@@ -24,22 +24,107 @@ public class CatequistaModelo {
 	@Column(length = 50, nullable = false, unique = false)
 	private String cat_documento;
 
-	@Column
+	@Column(length = 45, nullable = false)
 	private String cat_telefono;
 
-	@Column
+	@Column(length = 100, nullable = false)
 	private String cat_correo;
 
-	@Column
+	@Column(length = 100, nullable = false)
 	private String cat_direccion;
 
-	@Column
+	@Column(nullable = false)
 	private LocalDate cat_fechaNacimiento;
 
-	@Column
+	@Column(nullable = false)
 	private LocalDate cat_fechaRegistro;
 
-	@Column
+	@Column(nullable = false)
 	private Boolean cat_estado;
+
+	public CatequistaModelo() {
+		super();
+
+	}
+
+	public Integer getCat_id() {
+		return cat_id;
+	}
+
+	public void setCat_id(Integer cat_id) {
+		this.cat_id = cat_id;
+	}
+
+	public String getCat_nombre() {
+		return cat_nombre;
+	}
+
+	public void setCat_nombre(String cat_nombre) {
+		this.cat_nombre = cat_nombre;
+	}
+
+	public String getCat_apellido() {
+		return cat_apellido;
+	}
+
+	public void setCat_apellido(String cat_apellido) {
+		this.cat_apellido = cat_apellido;
+	}
+
+	public String getCat_documento() {
+		return cat_documento;
+	}
+
+	public void setCat_documento(String cat_documento) {
+		this.cat_documento = cat_documento;
+	}
+
+	public String getCat_telefono() {
+		return cat_telefono;
+	}
+
+	public void setCat_telefono(String cat_telefono) {
+		this.cat_telefono = cat_telefono;
+	}
+
+	public String getCat_correo() {
+		return cat_correo;
+	}
+
+	public void setCat_correo(String cat_correo) {
+		this.cat_correo = cat_correo;
+	}
+
+	public String getCat_direccion() {
+		return cat_direccion;
+	}
+
+	public void setCat_direccion(String cat_direccion) {
+		this.cat_direccion = cat_direccion;
+	}
+
+	public LocalDate getCat_fechaNacimiento() {
+		return cat_fechaNacimiento;
+	}
+
+	public void setCat_fechaNacimiento(LocalDate cat_fechaNacimiento) {
+		this.cat_fechaNacimiento = cat_fechaNacimiento;
+	}
+
+	public LocalDate getCat_fechaRegistro() {
+		return cat_fechaRegistro;
+	}
+
+	public void setCat_fechaRegistro(LocalDate cat_fechaRegistro) {
+		this.cat_fechaRegistro = cat_fechaRegistro;
+	}
+
+	public Boolean getCat_estado() {
+		return cat_estado;
+	}
+
+	public void setCat_estado(Boolean cat_estado) {
+		this.cat_estado = cat_estado;
+	}
 
 }
