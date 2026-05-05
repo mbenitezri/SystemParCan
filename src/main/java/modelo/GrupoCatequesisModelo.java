@@ -96,5 +96,5 @@ public class GrupoCatequesisModelo {
 	public void setClases(List<ClaseModelo> clases) {
 		this.clases = clases;
 	}
-
+//probar si guarda 
 }
