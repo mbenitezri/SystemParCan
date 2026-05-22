@@ -38,6 +38,15 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>2.0.12</version>
 		</dependency>
+		
+		<!--permitirá generar y exportar reportes dinámicos del sistema en formatos como PDF, utilizando datos de la aplicación.  -->
+		<dependency>
+			<groupId>jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>3.5.3</version>
+			<scope>compile</scope>
+		</dependency>
+		
 
 	</dependencies>
 
